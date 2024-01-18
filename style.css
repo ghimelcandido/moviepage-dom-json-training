@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 55, 55);
+}
+
+main {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+#app {
+    padding: 2rem;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.movieStructure {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.movieStructure img{
+    margin: 0 auto;
+    width: 200px;
+}
+
+.movieStructure h2 {
+    margin-top: 15px;
+}
+
+.movieStructure p {
+    margin-top: 15px;
+    width: 380px;
+}
